@@ -1,4 +1,4 @@
-# Designed to replicate real-world pharmaceutical clinical trial workflows.
+# Designed to replicate real-world clinical trial workflows.
 ## 📌 Overview
 This project demonstrates an end-to-end clinical trial data workflow using SAS, following CDISC standards (SDTM → ADaM → TLF). The goal is to transform raw clinical data into analysis-ready datasets and perform statistical and survival analyses.
 
