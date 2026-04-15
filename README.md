@@ -1,5 +1,4 @@
-# Clinical Trial Survival Analysis (SAS + CDISC)
-
+# Designed to replicate real-world pharmaceutical clinical trial workflows.
 ## 📌 Overview
 This project demonstrates an end-to-end clinical trial data workflow using SAS, following CDISC standards (SDTM → ADaM → TLF). The goal is to transform raw clinical data into analysis-ready datasets and perform statistical and survival analyses.
 
@@ -106,6 +105,15 @@ Outputs exported as:
 - `tables.pdf` (review-friendly)
 
 ---
+## 📊 Key Findings (Clinical Interpretation)
+- Baseline characteristics (Table 1) comparing demographic variables across disease stage
+- Older age was associated with a slightly higher hazard of event occurrence.
+- Disease stage (DISTAGE) showed variation in survival probabilities across groups.
+- Smoking status (SMKSTAT) was included as a clinical risk factor in the model.
+
+- Kaplan-Meier curves demonstrated differences in survival distributions by disease stage.
+
+These results illustrate how survival analysis can be used in clinical trials to evaluate treatment and risk factors.
 
 ## ⚠️ Important Note
 
